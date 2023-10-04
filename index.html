@@ -21,7 +21,7 @@
                 <div class="row bg-white align-items-center pt-3">
                     <div class="col-auto">
                         <img src="img/logo.svg" alt="logo" class="d-lg-block d-none">
-                        <img src="img/mobile-logo.png" alt="logo" class="d-block d-lg-none">
+                        <img src="img/mobile-logo.png" alt="logo" class="d-block d-lg-none img-avatar">
                     </div>
                     <div class="col">
                         <nav class="navbar">
@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-auto">
                         <ul class="list-group list-group-horizontal border-0">
-                            <li class="list-group-item border-0 d-none d-lg-block">
+                            <li class= "list-group-item border-0 d-none d-lg-inline-block">
                                 <i class="fa-solid fa-list"></i>
                             </li>
                             <li class="list-group-item border-0 d-none d-lg-block">
@@ -47,6 +47,8 @@
                             </li>
                             <li class="list-group-item border-0">
                                 <i class="fa-regular fa-bell text-warning"></i>
+                                
+
                             </li>
                         </ul>
 
@@ -62,31 +64,49 @@
                 <div class=" d-flex flex-column justify-content-between">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item bg-transparent border-0">
-                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-house i"></i><span class="d-lg-inline-block d-none">Home</span></a>
+                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-house i"></i><span class="d-lg-inline-block d-none ps-3">Home</span></a>
                         </li>
                         <li class="list-group-item bg-transparent border-0 ">
-                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-signal"></i><span class="d-lg-inline-block d-none">Stats</span></a>
+                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-signal"></i><span class="d-lg-inline-block d-none ps-3">Stats</span></a>
                         </li>
                         <li class="list-group-item bg-transparent border-0">
-                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-signal"></i><span class="d-lg-inline-block d-none">Signals</span></a>
+                            <a class="text-light text-decoration-none d-block p-3"><i class="fa-solid fa-signal"></i><span class="d-lg-inline-block d-none ps-2">Signals</span></a>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <ul>
                         <li>
-                            <a class="text-light text-decoration-none"><i class="fa-solid fa-gear"></i><span class="text">Admin</span></a>
+                            <a class="text-light text-decoration-none d-block"><i class="fa-solid fa-gear"></i></a><span class="d-lg-inline-block d-none">Admin</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
             
             <div id="main-content" class="border">
-                <div class="container-fluid bg-primary">
+                <div class="container-fluid bg-primary text-white">
                     <div class="row">
-                        <div class="col">1</div>
-                        <div class="col">2</div>
-                        <div class="col">3</div>
+                        <div class="col-6 pt-3">
+                            <div class="d-flex">
+                                <h3>Boolean</h3>
+                                <span class="badge rounded-pill text-bg-info ">Piano blaze</span>
+                            </div>
+                            <div><nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item class="badge rounded-pill text-bg-info"></li><a href="#">Home</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                              </nav>
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h5>Studenti online negli ultimi 10 minuti</h5>
+                            <span>125</span>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa-solid fa-plus"></i>Nuovo studente </span>
+                        </div>
 
                     </div>
                 </div>
@@ -110,49 +130,49 @@
                                     </thead>
                                     <tbody>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
                                         <td><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-desktop"></i></td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" ><i class="fa-solid fa-code"></i> Classe 75</th>
+                                        <th scope="row" ><img class="img-avatar" src="img/class-avatar.jpg" alt="img-avatar"> Classe 75</th>
                                         <td>15 Feb 2021</td>
                                         <td>20%</td>
                                         <td><button type="button" class="btn btn-success">Done</button></td>
@@ -166,7 +186,6 @@
                             <div class="card">
                                 <div class="card-header">
                                     F.A.Q.
-
                                 </div>
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
@@ -203,8 +222,8 @@
 
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 border">
-                            <div class="card mb-3">
+                        <div class="col-12 col-lg-4 border flex-md-column">
+                            <div class="card mb-3 mt-3">
                                 <div class="card-header">
                                     TODO
                                 </div>
