@@ -38,5 +38,8 @@ main{
 #sidebar li,a:hover{
     background-color: blueviolet;
 }
+.dropdown ::after { 
+    display: none; 
+}
 
 
