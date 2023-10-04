@@ -35,6 +35,8 @@ main{
 }
 
 
-
+#sidebar li,a:hover{
+    background-color: blueviolet;
+}
 
 

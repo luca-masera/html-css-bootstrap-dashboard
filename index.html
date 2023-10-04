@@ -45,8 +45,17 @@
                             <li class="list-group-item border-0 d-none d-lg-block">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </li>
-                            <li class="list-group-item border-0">
-                                <i class="fa-regular fa-bell text-warning"></i>
+                            <li class="list-group-item border-0">                                
+                                <div class="dropdown">
+                                    <icon class="dropdown-toggle" type="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-regular fa-bell text-warning"></i>
+                                    </icon>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
                                 
 
                             </li>
@@ -75,9 +84,9 @@
                     </ul>
                 </div>
                 <div>
-                    <ul>
-                        <li>
-                            <a class="text-light text-decoration-none d-block"><i class="fa-solid fa-gear"></i></a><span class="d-lg-inline-block d-none">Admin</span></a>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent border-0 d-flex">
+                            <a class=" text-decoration-none d-block"><i class="fa-solid fa-gear"></i></a><span class="d-lg-inline-block d-none text-light">Admin</span></a>
                         </li>
                     </ul>
                 </div>
@@ -86,26 +95,26 @@
             <div id="main-content" class="border">
                 <div class="container-fluid bg-primary text-white">
                     <div class="row">
-                        <div class="col-6 pt-3">
-                            <div class="d-flex">
-                                <h3>Boolean</h3>
-                                <span class="badge rounded-pill text-bg-info ">Piano blaze</span>
+                        <div class="col p-3">
+                            <div>
+                                <span>Boolean</span>
+                                <span class="badge" style="background-color: rgb(10, 22, 192);">Piano blaze</span>
                             </div>
-                            <div><nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                  <li class="breadcrumb-item class="badge rounded-pill text-bg-info"></li><a href="#">Home</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Library</li>
-                                </ol>
-                              </nav>
-                                
+                            <div>
+                                <span class="badge" style="background-color:  rgb(10, 22, 192);">3app </span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge" style="background-color:  rgb(10, 22, 192);">Boolean</span>
+                                <span class="badge" style="background-color:  rgb(10, 22, 192);">Boolean</span>
+                                <span class="badge" style="background-color:  rgb(10, 22, 192);">Boolean</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <h5>Studenti online negli ultimi 10 minuti</h5>
+                        <div class="col p-3">
+                            <span>Studenti online negli ultimi 10 minuti</span>
                             <span>125</span>
                         </div>
-                        <div class="col">
-                            <span><i class="fa-solid fa-plus"></i>Nuovo studente </span>
+                        <div class="col p-3 d-flex">
+                            <span>Nuovo studente</span>
+                            <span class="ps-3"><i class="fa-solid fa-plus border px-2 py-2"></i></span>
                         </div>
 
                     </div>
