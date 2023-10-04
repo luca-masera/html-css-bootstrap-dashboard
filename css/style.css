@@ -42,4 +42,15 @@ main{
     display: none; 
 }
 
+@media screen and (max-width: 768px){
+    
+
+    #sidebar{
+        width: 80px;
+    }
+    #main-content{
+        width: calc(100% - 80px);
+        
+    }
+}
 
